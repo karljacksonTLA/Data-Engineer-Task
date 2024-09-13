@@ -1,0 +1,65 @@
+# TLA Data Engineering Task
+
+## Overview
+
+This repository contains a dataset that you, as a candidate for the Data Engineer role at TLA, will use to demonstrate your data handling, cleaning, and transformation skills. The task is designed to simulate real-world scenarios involving dirty data, and you will be required to propose both structured and unstructured solutions.
+
+### Dataset: `TLA_Data_With_Errors.csv`
+
+This CSV file contains vehicle-related data, including:
+- **Brand**: Manufacturer of the vehicle (e.g., VOLVO, XEV)
+- **Model**: The specific vehicle model (e.g., EX40 ESTATE, YOYO HATCHBACK)
+- **Derivative**: Vehicle variant or trim level (e.g., 15kW Pro 10.4kWh 3dr Auto)
+- **Introduced**: Date the derivative was introduced
+- **Discontinued**: Date the derivative was discontinued (if applicable)
+
+## Task Requirements
+
+You are required to:
+
+1. **Load the Dataset**:  
+   Load the `TLA_Data_With_Errors.csv` into a Python environment or any preferred tool.
+
+2. **Data Cleansing**:  
+   Identify and resolve errors in the dataset, such as:
+   - Missing values
+   - Duplicate rows
+   - Inconsistent data types
+   - Outliers or unrealistic values
+   - Misaligned data
+
+3. **Structured and Unstructured Solutions**:  
+   Propose and describe how you would store the data in:
+   1. A **relational database** (e.g., SQL). Suggest a schema and explain how you would set up the tables and relationships.
+   2. An **unstructured or semi-structured format** (e.g., JSON, NoSQL). Provide an example of how the data might be structured in this format.
+
+4. **Bonus (Optional)**:  
+   If possible, showcase how you would insert the data into a staging table for further processing and cleansing, and then move it into the final tables.
+
+5. **Documentation**:  
+   Include a brief PowerPoint presentation or document that explains:
+   - Your approach to cleaning and transforming the data.
+   - The steps you took to identify and resolve issues.
+   - How you would structure the data for relational and unstructured databases.
+
+## How to Submit
+
+1. Clone this repository to your local machine:
+   git clone https://github.com/YOUR-USERNAME/TLA_Data_Engineering_Task.git
+
+2. Work through the task, and add your scripts, presentation, or documentation to the repository.
+
+3. Submit a link to your forked repository or upload your solution directly as a ZIP file.
+
+Expectations
+
+We are looking for a strong understanding of:
+
+	•	Data cleansing and error resolution.
+	•	Best practices for structuring data in relational and non-relational formats.
+	•	Clear and concise documentation of your process and solutions.
+
+Additional Information
+
+	•	Feel free to use any tools or libraries you are comfortable with (e.g., pandas in Python, SQL, Excel, etc.).
+	•	This task is designed to simulate real-world data engineering challenges, so the focus is on problem-solving and documentation, not perfection.
