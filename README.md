@@ -36,7 +36,7 @@ You are required to:
 	- Derivatives: Unique derivatives with DerivativeID and a foreign key ModelID.
 	- Vehicle Info: A table containing Introduced, Discontinued, and DerivativeID.
 
-Prepare the data ready to insert into a relational database structure, extract each table as a csv for review?   
+ 	- Prepare the data ready to insert into a relational database structure, extract each table as a csv for review?   
 
    2. An **unstructured or semi-structured format** (e.g., JSON, NoSQL). Provide an example of how the data might be structured in this format.
    3. Technological Recommendations:
