@@ -44,12 +44,14 @@ You are required to:
 
 ## How to Submit
 
-1. Clone this repository to your local machine:
-   git clone https://github.com/YOUR-USERNAME/TLA_Data_Engineering_Task.git
-
-2. Work through the task, and add your scripts, presentation, or documentation to the repository.
-
-3. Submit a link to your forked repository or upload your solution directly as a ZIP file.
+	1.	Reference the dataset:
+			• Load the dataset directly using its URL from this repository.
+   			url = 'https://raw.githubusercontent.com/YOUR-USERNAME/TLA_Data_Engineering_Task/main/TLA_Data_With_Errors.csv'
+	2.	Work through the task:
+			• Cleanse and transform the data, as instructed.
+			• Provide your scripts, presentation, or documentation explaining your approach and solutions.
+	3.	Submit your solution:
+			• Upload your solution as a ZIP file, including all your code, documentation, and other relevant files.
 
 Expectations
 
