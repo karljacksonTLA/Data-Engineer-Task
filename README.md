@@ -30,7 +30,7 @@ You are required to:
 
 3. **Structured and Unstructured Solutions**:  
    Propose and describe how you would store the data in:
-   1.	A relational database (e.g., SQL). Suggest a schema and explain how you would set up the tables and relationships. You should also prepare the data in Python, splitting it into the following tables:
+   1. A relational database (e.g., SQL). Suggest a schema and explain how you would set up the tables and relationships. You should also prepare the data in Python, splitting it into the following tables:
 	- Brands: Unique brands with BrandID.
 	- Models: Unique models with ModelID and a foreign key BrandID.
 	- Derivatives: Unique derivatives with DerivativeID and a foreign key ModelID.
@@ -38,8 +38,8 @@ You are required to:
 
 Prepare the data ready to insert into a relational database structure, extract each table as a csv for review?   
 
-   3. An **unstructured or semi-structured format** (e.g., JSON, NoSQL). Provide an example of how the data might be structured in this format.
-   4. Technological Recommendations:
+   2. An **unstructured or semi-structured format** (e.g., JSON, NoSQL). Provide an example of how the data might be structured in this format.
+   3. Technological Recommendations:
 	- Explain your choice of technologies for storing, processing, and moving the data (e.g., Azure Event Hub, Databricks, Data Lake Gen 2, or other services).
 	- Provide justifications for your recommendations, considering factors like scalability, cost, performance, and maintainability.
 	- Where relevant, suggest how these services would work together to form a robust data pipeline.
