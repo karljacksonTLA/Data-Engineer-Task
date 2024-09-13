@@ -39,11 +39,12 @@ You are required to:
 	 	- Prepare the data ready to insert into a relational database structure, extract each table as a csv for review?   
 
    2. An **unstructured or semi-structured format** (e.g., JSON, NoSQL). Provide an example of how the data might be structured in this format.
-   3. Technological Recommendations:
-	- Explain your choice of technologies for storing, processing, and moving the data (e.g., Azure Event Hub, Databricks, Data Lake Gen 2, or other services).
-	- Provide justifications for your recommendations, considering factors like scalability, cost, performance, and maintainability.
-	- Where relevant, suggest how these services would work together to form a robust data pipeline.
-	- If possible, include a rough cost estimate using the Azure Pricing Calculator or another tool to demonstrate your understanding of resource usage and cost-efficiency.
+      
+   4. Technological Recommendations:
+		- Explain your choice of technologies for storing, processing, and moving the data (e.g., Azure Event Hub, Databricks, Data Lake Gen 2, or other services).
+		- Provide justifications for your recommendations, considering factors like scalability, cost, performance, and maintainability.
+		- Where relevant, suggest how these services would work together to form a robust data pipeline.
+		- If possible, include a rough cost estimate using the Azure Pricing Calculator or another tool to demonstrate your understanding of resource usage and cost-efficiency.
 
 3. **Bonus (Optional)**:  
    If possible, showcase how you would insert the data into a staging table for further processing and cleansing, and then move it into the final tables.
