@@ -46,8 +46,6 @@ You are required to:
 		- Where relevant, suggest how these services would work together to form a robust data pipeline.
 		- If possible, include a rough cost estimate using the Azure Pricing Calculator or another tool to demonstrate your understanding of resource usage and cost-efficiency.
 
-3. **Bonus (Optional)**:  
-   If possible, showcase how you would insert the data into a staging table for further processing and cleansing, and then move it into the final tables.
 
 4. **Documentation**:  
    Include a brief PowerPoint presentation or document that explains:
