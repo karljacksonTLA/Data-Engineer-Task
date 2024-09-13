@@ -31,12 +31,12 @@ You are required to:
 3. **Structured and Unstructured Solutions**:  
    Propose and describe how you would store the data in:
    1. A relational database (e.g., SQL). Suggest a schema and explain how you would set up the tables and relationships. You should also prepare the data in Python, splitting it into the following tables:
-	- Brands: Unique brands with BrandID.
-	- Models: Unique models with ModelID and a foreign key BrandID.
-	- Derivatives: Unique derivatives with DerivativeID and a foreign key ModelID.
-	- Vehicle Info: A table containing Introduced, Discontinued, and DerivativeID.
-
- 	- Prepare the data ready to insert into a relational database structure, extract each table as a csv for review?   
+		- Brands: Unique brands with BrandID.
+		- Models: Unique models with ModelID and a foreign key BrandID.
+		- Derivatives: Unique derivatives with DerivativeID and a foreign key ModelID.
+		- Vehicle Info: A table containing Introduced, Discontinued, and DerivativeID.
+	
+	 	- Prepare the data ready to insert into a relational database structure, extract each table as a csv for review?   
 
    2. An **unstructured or semi-structured format** (e.g., JSON, NoSQL). Provide an example of how the data might be structured in this format.
    3. Technological Recommendations:
